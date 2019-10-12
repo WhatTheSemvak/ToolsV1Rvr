@@ -126,7 +126,7 @@ sleep 0.3
 
 sleep 0.3
 
-echo $r"╭─[PILIH NOMORNYA]"
+echo $r"╭─[PILIH NOMORNYA GAYN]"
 read -p "╰─root@ivantamvans~# " pil
 
 if [ $pil = "1" ] || [ $pil = "01" ]
@@ -272,7 +272,7 @@ sh hack-satelit.sh
 
 fi
 
-if [ $pil = 10 ]
+if [ $pil = "10" ]
 then
 
 figlet -f standard AdminFinder | lolcat
@@ -318,6 +318,5 @@ sleep 1
 echo "Tq Yang Sudah Pakai Tools Ini" | lolcat
 
 echo "Jangan Lupa Ser Ea" | lolcat
-exit
 
 fi
