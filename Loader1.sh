@@ -16,7 +16,7 @@ ______________________
   ║▒▒▒▒▒▒▒▒▒▒║
   ║▒▒▒▒▒▒▒▒▒▒║
  ╔════════════╗
-    MR.Revoer'S
+      MR.Revoer'S
  ╚════════════╝
   ║██████████╚╗
   ║██╔══╗█╔═╗█║
@@ -24,10 +24,11 @@ ______________________
   ║██╚═╝█║█╚╝█║
   ╚╗█████████═╝
      ╚╗║╠╩╩╩╩╩╝
-       ║║┈┈┈█▐█████|.｡oO∅
+       ║║┈┈┈█▐█████▒.｡oO
        ║██╠╦╦╦╗
        ╚╗██████";
 
+sleep 2
 
 echo $yellow "+===========(MR.Revoer'S)===========+"
 echo $green "|+TOOLS  : ProgramV1              |"
@@ -113,12 +114,42 @@ echo $g"==========================" | lolcat
 echo   "10.Admin Login Url Finder" | lolcat
 echo $g"==========================" | lolcat
 
-echo ""
-echo $g"==========================" | lolcat
-echo   "99.Install Bahan" | lolcat
-echo $g"==========================" | lolcat
+sleep 0.1
 
 echo ""
+echo $g"==========================" | lolcat
+echo   "11.Pemulung Bitcoin Work" | lolcat
+echo $g"==========================" | lolcat
+
+sleep 0.1
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "12. Nyepam Call Grab" | lolcat
+echo $g"==========================" | lolcat
+
+sleep 0.1
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "13.Bot Auto Like Facebook" | lolcat
+echo $g"==========================" | lolcat
+
+sleep 0.1
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "14.Clonning Yahoo Mati" | lolcat
+echo $g"==========================" | lolcat
+
+sleep 0.1
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "15.Lite Kalkulator Terx" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+sleep 0.1
 echo $g"==========================" | lolcat
 echo   "00.Keluar/Minggat" | lolcat
 echo $g"==========================" | lolcat
@@ -126,7 +157,7 @@ echo $g"==========================" | lolcat
 sleep 0.1
 
 
-echo $r"╭─[PILIH NOMORNYA GAYN]"
+echo $r"╭─[Select Number Of Tools:]"
 read -p "╰─root@ivantamvans~# " pil
 
 if [ $pil = "1" ] || [ $pil = "01" ]
@@ -142,6 +173,10 @@ cd Garuda-DDOS
 
 python3 garuda.py
 
+
+sleep 1
+
+sh Loader1.sh
 fi
 
 if [ $pil = "2" ] || [ $pil = "02" ]
@@ -287,13 +322,82 @@ python3 admin-finder.py
 
 fi
 
-if [ $pil = "99" ]
+if [ $pil = "Ga Tau" ]
 then
 
-echo "Terdeteksi! Bahan Sudah di install di perangkat Anda Sebelumnya..." | lolcat
+echo "Terdeteksi! Bocah Nolep:v" | lolcat
 
 sleep 2
 
 sh Loader1.sh
 
+fi
+
+if [ $pil = "11" ]
+then
+
+figlet -f standard Bitcoin | lolcat
+
+sleep 1
+
+git clone https://github.com/Cvar1984/pemulungBTC
+
+cd pemulungBTC
+
+php mulung.php
+
+fi
+
+if [ $pil = "12" ]
+then
+
+figlet -f standard SpamCall | lolcat
+
+sleep 1
+
+git clone https://github.com/FR13ND8/SpamCall
+
+cd SpamCall
+
+php call.php
+
+fi
+
+if [ $pil = "13" ]
+then
+
+figlet -f standard LikeFb | lolcat
+
+sleep 1
+
+git clone https://github.com/FR13ND8/autolike
+
+cd autolike
+
+php autolike.php
+
+fi
+
+if [ $pil = "14" ]
+then
+
+figlet -f standard Clonning
+
+sleep 1
+
+git clone https://github.com/FR13ND8/EmailVuln
+
+cd EmailVuln
+
+python2 vuln.py
+
+fi
+
+if [ $pil = "15" ]
+then
+figlet -f standard Kalkulator
+sleep 1
+git clone https://github.com/karjok/Litor
+cd Litor
+python litor.py
 fi
