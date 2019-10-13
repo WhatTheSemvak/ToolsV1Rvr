@@ -16,7 +16,7 @@ ______________________
   ║▒▒▒▒▒▒▒▒▒▒║
   ║▒▒▒▒▒▒▒▒▒▒║
  ╔════════════╗
-       MR.Revoer'S
+    MR.Revoer'S
  ╚════════════╝
   ║██████████╚╗
   ║██╔══╗█╔═╗█║
@@ -24,7 +24,7 @@ ______________________
   ║██╚═╝█║█╚╝█║
   ╚╗█████████═╝
      ╚╗║╠╩╩╩╩╩╝
-       ║║┈┈┈█▐█████▒.｡oO
+       ║║┈┈┈█▐█████|.｡oO∅
        ║██╠╦╦╦╗
        ╚╗██████";
 
@@ -51,13 +51,13 @@ sleep 1
 echo $g"==========================" | lolcat
 echo   "1.DDOS WEBSITE TERPROTEKSI" | lolcat
 echo $g"==========================" | lolcat
-sleep 0.3
+sleep 0.1
 echo ""
 echo $g"==========================" | lolcat
 echo   "2.Hack Fb Beragam Metode" | lolcat
 echo $g"==========================" | lolcat
 
-sleep 0.3
+sleep 0.1
 echo ""
 
 echo $g"==========================" | lolcat
@@ -65,47 +65,48 @@ echo   "3.Buat Script Deface Sendiri" | lolcat
 echo $g"==========================" | lolcat
 echo ""
 
-sleep 0.3
+sleep 0.1
 
 echo $g"==========================" | lolcat
 echo   "4.Install Tools MetaSploit" | lolcat
 echo $g"==========================" | lolcat
 
-sleep 0.3
+sleep 0.1
 echo ""
 
 echo $g"==========================" | lolcat
 echo   "5.Install NIK Reader Penipu" | lolcat
 echo $g"==========================" | lolcat
 
-sleep 0.3
+sleep 0.1
 echo ""
 echo $g"==========================" | lolcat
 echo   "6.Tools Dark Fb 😈 Setan" | lolcat
 echo $g"==========================" | lolcat
 
-sleep 0.3
+sleep 0.1
+
 
 echo ""
 echo $g"==========================" | lolcat
 echo   "7.Google Translate In Termux" | lolcat
 echo $g"==========================" | lolcat
 
-sleep 0.3
+sleep 0.1
 
 echo ""
 echo $g"==========================" | lolcat
 echo   "8.Kumpulan Terminals Terbaru" | lolcat
 echo $g"==========================" | lolcat
 
-sleep 0.3
+sleep 0.1
 
 echo ""
 echo $g"==========================" | lolcat
 echo   "9.Hack Satelit Remote Control" | lolcat
 echo $g"==========================" | lolcat
 
-sleep 0.3
+sleep 0.1
 
 echo ""
 echo $g"==========================" | lolcat
@@ -122,9 +123,8 @@ echo $g"==========================" | lolcat
 echo   "00.Keluar/Minggat" | lolcat
 echo $g"==========================" | lolcat
 
-sleep 0.3
+sleep 0.1
 
-sleep 0.3
 
 echo $r"╭─[PILIH NOMORNYA GAYN]"
 read -p "╰─root@ivantamvans~# " pil
@@ -262,7 +262,7 @@ figlet -f standard Satelit | lolcat
 
 sleep 1
 
-echo "Ini Tools Abal Abal Ya Bambank :v"' 
+echo "Ini Tools Abal Abal Ya Bambank :v"
 
 git clone https://github.com/pashayogi/satelit
 
@@ -283,40 +283,17 @@ git clone https://github.com/the-c0d3r/admin-finder
 
 cd admin-finder
 
-python2 admin-finder.py
+python3 admin-finder.py
 
 fi
 
 if [ $pil = "99" ]
 then
 
-pkg install python2
-pkg install git
-pkg install nano
-pkg install php
-pkg install curl
-pkg install figlet
-pkg install ruby
-pkg install vim
-gem install lolcat
-pip2 install --upgrade pip
-pip2 install requests
-pip2 install mechanize
-pip2 install distribute
+echo "Terdeteksi! Bahan Sudah di install di perangkat Anda Sebelumnya..." | lolcat
 
-echo "Semua Bahan Berhasil Di Install!!" | lolcat
+sleep 2
 
 sh Loader1.sh
-
-fi
-
-if [ $pil = "00" ] || [ $pil = "0" ]
-then
-
-sleep 1
-
-echo "Tq Yang Sudah Pakai Tools Ini" | lolcat
-
-echo "Jangan Lupa Ser Ea" | lolcat
 
 fi
