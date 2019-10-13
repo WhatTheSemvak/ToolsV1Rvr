@@ -149,7 +149,40 @@ echo $g"==========================" | lolcat
 echo   "15.Lite Kalkulator Terx" | lolcat
 echo $g"==========================" | lolcat
 echo ""
+
 sleep 0.1
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "16.Kang Spammer Email" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.1
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "17.Virtex WhatsApp Maker" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+sleep 0.1
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "18.Sadap Wa Real (Metasploit)" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.1
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "19.Vanessa Angel DDOS :v" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.1
+
 echo $g"==========================" | lolcat
 echo   "00.Keluar/Minggat" | lolcat
 echo $g"==========================" | lolcat
@@ -400,4 +433,64 @@ sleep 1
 git clone https://github.com/karjok/Litor
 cd Litor
 python litor.py
+fi
+
+if [ $pil = "16 ]
+then
+
+figlet -f standard SpamMail
+
+sleep 1
+
+git clone https://github.com/KANG-NEWBIE/SpamMail
+
+cd SpamMail
+
+python2 main.py
+
+fi
+
+if [ $pil = "17" ]
+then
+
+figlet -f standard Virtex | lolcat
+
+sleep 1
+
+git clone https://github.com/cyber2611/VIRTEX
+
+cd VIRTEX
+
+sh virtex.sh
+
+fi
+
+if [ $pil = "18" ]
+then
+
+figlet -f standard WhatSExp | lolcat
+
+sleep 1
+
+git clone https://github.com/MiSetya/WhatsExploit/
+
+cd WhatsExploit
+
+sh start-ex.sh
+
+fi
+
+if [ $pil = "19" ]
+then
+
+figlet -f standard VA-DDOS
+
+sleep 1
+
+git clone https://github.com/MiSetya/VA-DDOS
+
+cd VA-DDOS
+
+python3 VA-DDOS.py
+
 fi
