@@ -4,7 +4,7 @@
 #mau ngapain gblk ?
 #jan recode tolol
 #Gw capek buatnya asw
-#Copyright© 2018 By Fajar Fajar Firdaus
+#Copyright© 2018 By revoer&_id
 #Dear Tukang Recode :
 #[=============================================================]
 #Lelaki yang mencuri dan wanita yang mencuri,potonglah tangan
