@@ -16,7 +16,7 @@ ______________________
   ║▒▒▒▒▒▒▒▒▒▒║
   ║▒▒▒▒▒▒▒▒▒▒║
  ╔════════════╗
-    MR.Revoer'S
+ MR.Revoer'S
  ╚════════════╝
   ║██████████╚╗
   ║██╔══╗█╔═╗█║
@@ -195,6 +195,46 @@ sleep 0.03
 echo ""
 echo $g"==========================" | lolcat
 echo   "21.Ip Geologation Finder" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.03
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "22.Pengertian Surah Al-Qur'an" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.03
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "23.Dark Fb Simple Ngegas" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.03
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "24.Sms Gratis All Op Payu" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.03
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "25.Deface Massal Webdav" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.03
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "26.Clonning Yahoo Facebook" | lolcat
 echo $g"==========================" | lolcat
 echo ""
 
@@ -536,5 +576,71 @@ git clone https://github.com/Bl4ckDr460n/IP-Location
 cd IP-Location
 
 python2 lacak.py
+
+fi
+
+if [ $pil = "22" ]
+then
+
+figlet -f standard Al-Qur'an | lolcat
+
+sleep 1
+
+git clone https://github.com/Rusmana-ID/surah-al-quran
+
+cd surah-al-quran
+
+sh install.sh
+
+fi
+
+if [ $pil = "23" ]
+then
+
+figlet -f standard DarkNgegas
+sleep 1
+
+git clone https://github.com/MrBarBar05/Bacot
+
+cd Bacot
+
+python2 bacot.py
+
+fi
+
+if [ $pil = "24" ]
+then
+figlet -f standard SmsPayu | lolcat
+sleep 1
+
+git clone https://github.com/N74NK/sms
+
+cd sms
+python2 sms.py 
+
+fi
+
+if [ $pil = "25" ] 
+then
+figlet -f standard WebDav | lolcat
+sleep 1
+git clone https://github.com/N74NK/mass-webdav
+
+cd mass-webdav
+
+python masswebdav.py
+
+fi
+
+if [ $pil = "26" ]
+then
+figlet -f standard Yclone | lolcat
+sleep 1
+
+git clone https://github.com/N74NK/Yclone
+
+cd Yclone
+
+python2 yclone.py
 
 fi
