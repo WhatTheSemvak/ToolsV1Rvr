@@ -1,5 +1,22 @@
 #!/bin/bash
+#Saya Bersumpah Bila Saya Merecode SC Ini Selain Mr.®evoers Maka Saya Rela Cacat
 #Process Tools
+#mau ngapain gblk ?
+#jan recode tolol
+#Gw capek buatnya asw
+#Copyright© 2018 By Fajar Fajar Firdaus
+#Dear Tukang Recode :
+#[=============================================================]
+#Lelaki yang mencuri dan wanita yang mencuri,potonglah tangan
+#keduanya (sebagai) pembalasan bagi apa yang mereka kerjakan dan
+#sebagai siksaan dari Allah.
+#Dan Allah Maha Perkasa lagi Maha Bijaksana.
+#Maka barangsiapa bertaubat (di antara pencuri-pencuri itu)
+#sesudah melakukan kejahatan itu dan memperbaiki diri,
+#maka sesungguhnya Allah menerima taubatnya.
+#Sesungguhnya Allah Maha Pengampun lagi Maha Penyayang.”
+
+#(QS. Al-Maidah: 38-39)
 clear
 
 echo -e "######################################" | lolcat
@@ -50,19 +67,25 @@ echo $cy"Berikut Adalah Beberapa Tools Yang Saya Kumpulkan"
 sleep 1
 
 echo $g"==========================" | lolcat
+sleep 0.05
 echo   "1.DDOS WEBSITE TERPROTEKSI" | lolcat
+sleep 0.05
 echo $g"==========================" | lolcat
 sleep 0.01
 echo ""
 echo $g"==========================" | lolcat
+sleep 0.05
 echo   "2.Hack Fb Beragam Metode" | lolcat
+sleep 0.05
 echo $g"==========================" | lolcat
 
 sleep 0.01
 echo ""
 
 echo $g"==========================" | lolcat
+sleep 0.05
 echo   "3.Buat Script Deface Sendiri" | lolcat
+sleep 0.05
 echo $g"==========================" | lolcat
 echo ""
 
@@ -202,10 +225,41 @@ sleep 0.01
 
 echo ""
 echo $g"==========================" | lolcat
-echo   "22.Pengertian Surah Al-Qur'an" | lolcat
+echo   "22.Free Pulsa AllOprator" | lolcat
 echo $g"==========================" | lolcat
 echo ""
 
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "23.Spam Sms Unli Im3" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "24.SQLscan Vuln Websites" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "25.Mabar Game Di Termux :v" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "26.Tools Asu Buat Dorking" | lolcat
+echo $g"==========================" | lolcat
+echo ""
 
 sleep 0.01
 
@@ -216,7 +270,7 @@ echo $g"==========================" | lolcat
 sleep 0.01
 
 
-echo $r"╭─[Select Number Of Tools:]"
+echo $r"╭─[Mau Pilih Yang mana Lu? :]"
 read -p "╰─root@ivantamvans~# " pil
 
 if [ $pil = "1" ] || [ $pil = "01" ]
@@ -444,11 +498,11 @@ figlet -f standard Clonning
 
 sleep 1
 
-git clone https://github.com/FR13ND8/EmailVuln
+git clone https://github.com/N74NK/Yclone
 
-cd EmailVuln
+cd Yclone
 
-python2 vuln.py
+python2 yclone.py
 
 fi
 
@@ -551,14 +605,78 @@ fi
 if [ $pil = "22" ]
 then
 
-figlet -f standard Al-Qur'an | lolcat
+figlet -f standard FreePulsa | lolcat
 
 sleep 1
 
-git clone https://github.com/Rusmana-ID/surah-al-quran
+git clone https://github.com/V4N654T/FreePulsa
 
-cd surah-al-quran
+cd FreePulsa
 
-sh install.sh
+python2 free.py
+
+fi
+
+if [ $pil = "23" ] 
+then
+
+figlet -f standard SpamSms | lolcat
+
+sleep 1
+ 
+git clone https://github.com/N74NK/SPAMIM3
+
+cd SPAMIM3
+
+php kntl.php
+
+fi
+
+if [ $pil = "24" ]
+then
+
+figlet -f standard SQLscan | lolcat
+
+sleep 1
+
+echo " Penggunaan : php scan.php -u (url target)"
+
+sleep 1
+
+git clone https://github.com/N74NK/SQLscan
+
+cd SQLscan
+
+php scan.php
+
+fi
+
+if [ $pil = "25" ]
+then
+
+figlet -f standard Gaming | lolcat
+
+sleep 1
+
+git clone https://github.com/MaulanaRyM/AnjayMabar
+
+cd AnjayMabar
+
+python2 gamers.py
+
+fi
+
+if [ $pil = "26" ]
+then
+
+figlet -f standard Dorking | lolcat
+
+sleep 1
+ 
+git clone git clone https://github.com/Hood3dRob1n/BinGoo
+
+cd BinGoo
+
+ls
 
 fi
