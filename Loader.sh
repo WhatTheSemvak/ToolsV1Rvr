@@ -39,7 +39,7 @@ else
 
 sleep 2
 
-sh BelajarKoding.sh
+sh Loader.sh
 
 fi
 
