@@ -4,7 +4,7 @@
 #mau ngapain gblk ?
 #jan recode tolol
 #Gw capek buatnya asw
-#Copyright© 2018 By revoer&_id
+#Copyright© 2018 By Fajar Fajar Firdaus
 #Dear Tukang Recode :
 #[=============================================================]
 #Lelaki yang mencuri dan wanita yang mencuri,potonglah tangan
@@ -61,6 +61,27 @@ echo ""
 echo ""
 
 sleep 1
+echo "Do You Want To Update The Tools?[Y/n]" | lolcat
+
+sleep 0.03
+
+read -p "Input~# " sad
+
+if [ $sad = "Y" ] || [ $sad = "y" ]
+then
+
+git pull
+
+fi
+
+sleep 1
+
+if [ $sad = "N" ] || [ $sad = "n" ]
+then
+
+figlet -f standard Abort. | lolcat
+
+fi
 
 echo $cy"Berikut Adalah Beberapa Tools Yang Saya Kumpulkan"
 
@@ -258,6 +279,46 @@ sleep 0.01
 echo ""
 echo $g"==========================" | lolcat
 echo   "26.Tools Asu Buat Dorking" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "27.Install Tools OSIF" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "28.Ddos Trojan Win32" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "29.Dark-Sms All Op" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "30.Jadwal Sholat 5 Waktu" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "31.Bot Subscribe Youtube" | lolcat
 echo $g"==========================" | lolcat
 echo ""
 
@@ -678,5 +739,80 @@ git clone git clone https://github.com/Hood3dRob1n/BinGoo
 cd BinGoo
 
 ls
+
+fi
+
+if [ $pil = "27" ]
+then
+
+figlet -f standard OSIF | lolcat
+
+sleep 1
+
+git clone https://github.com/CiKu370/OSIF
+
+cd OSIF
+
+python2 osif.py
+
+fi
+
+if [ $pil = "28" ]
+then
+
+figlet -f standard Trojans | lolcat
+
+sleep 1
+
+git clone https://github.com/TheSploit/Tools-DDOS	
+
+cd Tools-DDOS
+
+python3 trojans32.py
+
+fi
+
+if [ $pil = "29" ]
+then
+
+figlet -f standard Dark-Sms | lolcat
+
+sleep 1
+
+git clone https://github.com/rezadkim/dark-sms
+
+cd dark-sms
+
+python2 sms.py
+
+fi
+
+if [ $pil = "30" ]
+then
+
+figlet -f standard JadwalSholat | lolcat
+
+sleep 1
+
+git clone https://github.com/rezadkim/jadwalshalat
+
+cd jadwalshalat
+
+python2 solat.py
+
+fi
+
+if [ $pil = "31" ]
+then
+
+figlet -f standard Bot-Yt | lolcat
+
+sleep 1
+
+git clone https://github.com/rahmadxyz/sub-bot
+
+cd sub-bot
+
+php sub-bot.php
 
 fi
