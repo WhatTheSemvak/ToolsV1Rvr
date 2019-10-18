@@ -47,6 +47,21 @@ ______________________
 
 sleep 2
 
+echo "
+ ._________________.
+ | _______________ |
+ | I             I |
+ | I Programmer   I |
+ | I     <>      I |
+ | I      Solution I |
+ | I_____________I |
+ !_________________!
+    ._[_______]_.
+.___|___________|___.
+|::: ____           |
+|    ~~~~ [CD-ROM]  |
+!___________________!";
+
 echo $yellow "+===========(MR.Revoer'S)===========+"
 echo $green "|+TOOLS  : ProgramV1              |"
 echo $green  "|+CODING : MR.Revoer'S         |"
@@ -60,28 +75,17 @@ echo $blue ">>=========={MENU}==========<<"
 echo ""
 echo ""
 
+
+
 sleep 1
-echo "Do You Want To Update The Tools?[Y/n]" | lolcat
+echo "Siapa Nama Mu?" | lolcat
+read -p " Input Nama : " jeneng
+
+toilet -f future "Selamat Datang" -F gay
+toilet -f future "Di Tools Revoers" -F gay
+figlet -f standard "$jeneng" | lolcat
 
 sleep 0.03
-
-read -p "Input~# " sad
-
-if [ $sad = "Y" ] || [ $sad = "y" ]
-then
-
-git pull
-
-fi
-
-sleep 1
-
-if [ $sad = "N" ] || [ $sad = "n" ]
-then
-
-figlet -f standard Abort. | lolcat
-
-fi
 
 echo $cy"Berikut Adalah Beberapa Tools Yang Saya Kumpulkan"
 
@@ -319,6 +323,38 @@ sleep 0.01
 echo ""
 echo $g"==========================" | lolcat
 echo   "31.Bot Subscribe Youtube" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "32.Fake Domain 4 Defacer.id" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "33.Binary Code Translator" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "34.Vbug Virus Maker" | lolcat
+echo $g"==========================" | lolcat
+echo ""
+
+sleep 0.01
+
+echo ""
+echo $g"==========================" | lolcat
+echo   "35.Nuyul Kubik,Caping,Dll." | lolcat
 echo $g"==========================" | lolcat
 echo ""
 
@@ -768,7 +804,7 @@ git clone https://github.com/TheSploit/Tools-DDOS
 
 cd Tools-DDOS
 
-python3 trojans32.py
+python trojan32.py
 
 fi
 
@@ -814,5 +850,65 @@ git clone https://github.com/rahmadxyz/sub-bot
 cd sub-bot
 
 php sub-bot.php
+
+fi
+
+if [ $pil = "32" ] 
+then
+
+figlet -f standard FakeDomain | lolcat
+
+sleep 1
+
+git clone https://github.com/BLACK-PHANTOM-CYBER/Fakker
+
+cd Fakker
+
+sh start.sh
+
+fi
+
+if [ $pil = "33" ] 
+then
+
+toilet -f future "Binary-Translator" | lolcat
+
+sleep 1
+
+git clone https://github.com/BLACK-PHANTOM-CYBER/Binary-Translator
+
+cd Binary-Translator
+
+python2 Binary-Translator.py
+
+fi
+
+if [ $pil = "34" ]
+then
+
+toilet -f future "Vbug Maker" -F gay
+
+sleep 1
+
+git clone https://github.com/Gameye98/vbug
+
+cd vbug
+
+python2 vbug.py
+
+fi
+
+if [ $pil = "35" ]
+then
+
+toilet -f future "Nuyul All Apk" -F gay
+
+sleep 1
+
+git clone  https://github.com/Rusmana-ID/nuyul
+
+cd nuyul
+
+sh nuyul.sh
 
 fi
