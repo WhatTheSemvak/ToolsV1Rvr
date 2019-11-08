@@ -16,26 +16,29 @@ echo $bl""
 figlet -f standard Belajar
 echo "_____________________________________________________________"
 
-echo "Tools Kampank V1 On Termosss" | lolcat
+echo "Tools Kampank V2 On Termosss" | lolcat
 echo $g"Author : Ivan Cruzz Revoer" 
 echo "Contact Admin : 085736891082" | lolcat
 echo $g"Recod3? Besok Kencing Nanah :v"
  echo "_____________________________________________________________"
 
-echo $bl"Untuk Melanjutkan Silahkan Login Dulu!!"
+echo $bl"Sebelum Masuk Harap Login Dulu!"
 echo ""
 
 sleep 3
 
-read -p "Username : " usr
+read -p "Username~# " usr
 
-if [ $usr = "IvanId" ]
+if [ $usr = "Revoer" ]
 then
 
 figlet -f standard Sukses! | lolcat
 
 else
   figlet -f slant Gagal! | lolcat
+echo ""
+
+echo $p"Seperti Nya Username Anda Salah"
 
 sleep 2
 
@@ -43,9 +46,9 @@ sh Loader.sh
 
 fi
 
-read -p "Password: " pwd
+read -p "Password~#  " pwd
 
-if [ $pwd = "Mr.Revoers" ]
+if [ $pwd = "Gans" ]
 then
 
    figlet -f standard Sukses! | lolcat
@@ -55,6 +58,8 @@ sleep 1
 else
 
     figlet -f slant Gagal! | lolcat
+echo ""
+echo $g"Seperti Nya Password Anda Salah!"
 
 sleep 2
 
@@ -62,12 +67,8 @@ sh Loader.sh
 
 fi
 
-echo $b "Selamat Menggunakan Tools Ini!! :)"
+echo $p"Your Access Has Been Granted"
 
-sleep 1
-
-clear
-
-#Process Tools
+#Process
 
 sh Loader1.sh
